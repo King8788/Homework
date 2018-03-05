@@ -96,7 +96,7 @@ function makeBuddies() {
   // display an unordered list of buddies in the aside
   // give each of the buddies a class of "buddy"
 
-  ("makeBuddies").append("buddies")
+  ("makeBuddies").append("buddies");
 $("#b5").show("buddies");
 
 $("#baddies").select("buddy");
