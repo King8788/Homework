@@ -120,6 +120,9 @@ function forgeTheFellowShip() {
   // add an h1 with the text 'The Fellowship' to this new div
   // add each hobbit and buddy one at a time to 'the-fellowship'
   // after each character is added make an alert that they have joined your party
+
+  $('.the-fellowship').select('#hobbits' , 'buddies');
+  $('.the-fellowship').append("<h1>").append("The Fellowship");
 }
 
 function theBalrog() {
